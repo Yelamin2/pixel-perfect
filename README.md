@@ -20,7 +20,7 @@ As a web developer, you will sometimes be tasked with creating an html page simp
   Fonts](https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i%7cOswald:300,400,500,600,700%7cPlayfair+Display:400,400i,700,700i)
   in your implementation -- "Lato", "Oswald", and "Playfair+Display".
 * Use [the FontAwesome
-  icons](https://fontawesome.com/v4/cheatsheet/) for image icons
+  icons](https://fontawesome.com/v5/cheatsheet) for image icons
 * Use [placeholder text of your choice](http://meettheipsums.com) for all copy
 * Use [placeholder images of your
   choosing](http://www.hanselman.com/blog/TheInternetsBestPlaceholderImageSitesForWebDevelopment.aspx) for all images not provided
