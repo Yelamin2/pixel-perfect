@@ -6,9 +6,9 @@ As a web developer, you will sometimes be tasked with creating an html page simp
 
 * A repo containing at least:
   * `index.html`
-  * `normalize.css`
-  * `styles.css`
-  * `images` 
+  * `assets/css/normalize.css`
+  * `assets/css/styles.css`
+  * `assets/images` 
 
 ### Requirements
 
