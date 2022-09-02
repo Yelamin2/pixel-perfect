@@ -1,0 +1,38 @@
+* {
+    background-color: red;
+}
+
+
+*::before, *::after{
+
+
+}
+.box{
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding: 10px;
+}
+
+.bbox {
+
+    flex:1;
+    color: bule;
+    font-size: 200;
+    text-align: center;
+}
+
+
+.art1 {background: #d45151;}
+.art2 {background: #64cf86;}
+.art3 {background: #121212;}
+.art4 {background: #e560ad;}
+.info1 {background: #de1f1f;}
+.info2 {background: #84e7b4;}
+.info3 {background: #d4ed2e;}
+
+.container {
+    display: flex;
+}
