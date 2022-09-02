@@ -10,25 +10,24 @@
 }
 
 header{
-
-    height: 65;
+    display: block;
+    height: 265;
     max-width: 98%;
 }
-.box{
+.holder{
+
     display: flex;
-    justify-content: flex-start;
-    color: white;
-    font-size: 20px;
-    text-align: center;
-    padding: 10px;
-    border: 20px;
+    width: 100%;
+    justify-content: center;
+    background: #d4ed2e;
+    border-top: 40px solid gold;
     
 }
 
 .bbox {
 
     flex:2;
-    color: bule;
+    color: bule#d8ccec;
     font-size: 16;
     text-align: center;
     
@@ -39,6 +38,7 @@ header{
     max-width: 65.7%;
     
     background: #2e84ed;
+    margin-top: 50px;
 }
 .space {
 
@@ -52,9 +52,23 @@ header{
     background: #22d537;
 }
 
+.box{
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    
+    
+}
+
+
+
+
+
 .art1 {background: #d45151;}
 .art2 {background: #64cf86;}
-.art3 {background: #121212;}
+.art3 {background: #4e44d6a1;}
 .art4 {background: #e560ad;}
 .info1 {background: #de1f1f;}
 .info2 {background: #84e7b4;}
@@ -70,11 +84,10 @@ header{
     justify-content: flex-start;
 }
 
-.holder{
 
-    display: flex;
+
+img {
     width: 100%;
-    justify-content: center;
-    background: #d4ed2e;
-    margin-top: 67px;
+    height: 100%;
+    
 }
