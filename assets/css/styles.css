@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Oswald&family=Playfair+Display:ital@1&display=swap');
 
 
 * {
     background-color: red;
     max-width: 1440;
+    font-family: Lato, Oswald, Playfair+Display ;
    
 }
 
@@ -60,7 +61,8 @@ header{
     justify-content: flex-start;
     color: rgb(38, 18, 18);
     content:"";
-    font-family:Oswald;
+    font-family:Playfair+Display;
+    
 
     
     
@@ -97,17 +99,30 @@ img {
 
 h2 {
  
-    font:bold;
-    font-size: 1.6em;
+    font-family: Oswald;
+    font:300;
+    font-size: 26px;
     text-align: center;
+    margin-top: -5px;
+
 }
 
 h3 {
     font-size: .8rem;
+    font:large;
+    font-family: Lato;
+    margin-top: 42px;
 }
 
 p {
-    font-size: 1em;
-    text-align: left;
+    font-family: Oswald;
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 0px;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+ 
+    
+    
     
 }
