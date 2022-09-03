@@ -3,33 +3,82 @@
 html {
     box-sizing: border-box;
 }
+
 * {
     background-color: red;
-    width: 1440;
+    width: 1425;
     font-family: Lato, Oswald, Playfair+Display;
    
 }
 
 
-*::before, *::after{
+/**::before, *::after{
 
 
-}
+}*/
+
 
 header{
-    display: block;
-    height: 265;
-    max-width: 98%;
+    
+    display: flex;
+    width: 100%;
+    top: 0px;
 }
+
+
+header ul {
+    
+    flex:1;
+    color: #121212;
+    list-style: none;
+    font-family: Oswald;
+    
+}
+
+header ul .social_icons{
+    
+    justify-content: flex-end;
+    position: relative;
+    padding-left: 40px;
+    
+}
+
+header ul .menu-items{
+    
+    justify-content: flex-start;
+    position: relative;
+    padding-right: 0px;
+    
+}
+
+
+
 .holder{
 
     display: flex;
     width: 100%;
-    justify-content: center;
-    background: #d4ed2e;
-    border-top: 40px solid gold;
+    justify-content:flex-start;
+    padding-left: 10.22%;
+    background: #2ecaed;
+    margin-top: -35px;;
+    /*border-top: 10px solid gold;*/
     
 }
+
+.container {
+    
+    background: #afd451;
+    flex:1 ;
+    display: flex;
+    max-width: 80.8%;
+    padding: 0;
+    margin: 0;
+    justify-content:flex-start
+    
+    
+}
+
+
 
 .bbox {
 
@@ -41,7 +90,7 @@ header{
 }
 
 .articles {
-    max-width: 65.9%;
+    max-width: 65.7%;
     background: #2e84ed;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -49,12 +98,12 @@ header{
 }
 .space {
 
-    max-width: 2.75%;
+    max-width: 2.7%;
     background: #121212;
 }
 
 .sidebar {
-    max-width: 31.5%;
+    max-width: 31.6%;
     background: #22d537;
     margin-top: 50px;
     border-bottom: 50px solid rgb(119, 80, 80);
@@ -70,14 +119,7 @@ header{
 }
 
 
-.container {
-    flex:1 ;
-    display: flex;
-    max-width: 80%;
-    padding: 0;
-    margin: 0;
-    justify-content: flex-start;
-}
+
 
 
 
@@ -147,18 +189,53 @@ a:hover{
     color: #de1f1f;
 }
 
+
+
+.info1 img{
+
+    max-width: 360px;
+    max-height: 185px;
+}
 .circle img{
    
-    max-height:185px;
-    max-width:185px;
+    max-height:180px;
+    max-width:180px;
     border-radius: 50%;
-    border: 10px solid #f1eded;
+    border: 8px solid #f1eded;
     position:relative;
-    top: -93px;
+    top: -86px;
+}
+
+.info1 h2{
+    font-family: Oswald;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    top: -75px;
+}
+
+.info1 p{
+    position:relative;
+    font-size: 16;
+    font-family: Owsald;
+    font-weight: lighter;
+    font-style: normal;
+    text-align: center;
+    top: -70px;
+}
+.info1 ul{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -65px;
+}
+.info1 li{
+
+    border: 2px;
 }
 
 
-@media (max-width 900px){
+@media (max-width: 900px){
 
     .space{
         width:0;
@@ -179,3 +256,16 @@ a:hover{
 .info2 {background: #84e7b4;}
 .info3 {background: #d4ed2e;}
 
+footer {
+    display: flex;
+    max-width: 1425px;
+}
+
+
+footer .photos img{
+
+    max-height: 100;
+    max-width:100;
+    
+
+}
