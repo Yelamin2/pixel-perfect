@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans&family=Oswald&display=swap');
+
+
 * {
     background-color: red;
     max-width: 1440;
+   
 }
 
 
@@ -27,37 +31,37 @@ header{
 .bbox {
 
     flex:2;
-    color: bule#d8ccec;
-    font-size: 16;
+    color: bule#a186ce;
     text-align: center;
     
 
 }
 
 .articles {
-    max-width: 65.7%;
-    
+    max-width: 65.8%;
     background: #2e84ed;
     margin-top: 50px;
 }
 .space {
 
-    max-width: 2.8%;
+    max-width: 2.75%;
     background: #121212;
 }
 
 .sidebar {
     max-width: 31.3%;
-  
     background: #22d537;
+    margin-top: 50px;
 }
 
 .box{
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
-    color: white;
-    font-size: 20px;
-    text-align: center;
+    color: rgb(38, 18, 18);
+    content:"";
+    font-family:Oswald;
+
     
     
 }
@@ -89,5 +93,21 @@ header{
 img {
     width: 100%;
     height: 100%;
+}
+
+h2 {
+ 
+    font:bold;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+h3 {
+    font-size: .8rem;
+}
+
+p {
+    font-size: 1em;
+    text-align: left;
     
 }
