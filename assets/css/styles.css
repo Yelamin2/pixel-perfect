@@ -31,11 +31,12 @@ body {
     background-color: #F8F8F8;
     padding: 20px;
     font-family:"Lato";
-    font-stretch:wider 150%;
+    font-stretch:extra-expanded;
     letter-spacing: 2px;
     position: relative;
     top:15px;
     border-top: 5px double #E4E4E4;
+
 }
 
 .flex-nav ul {
@@ -44,22 +45,25 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
     position: relative;
     left: 110px;
+    display: flex;
+    flex-wrap: wrap;
+
+
 }
 
-.flex-nav li.menu-items{
-    flex:1;
-    max-width: 10%;
-    justify-items: flex-start;
-    font-size:12px;
+.flex-nav li{
+    flex:3;
+    justify-content: flex-start;
+    flex-shrink: 3;
+
 }
 
 .flex-nav .social-icons {
     flex: 1;
-    max-width: 3%;
     font-size: 14px;
+    position: relative;
     justify-items: flex-end;
 }
 
@@ -73,22 +77,25 @@ nav ul {
     font-family: "Lato";
     font-weight: 700;
     letter-spacing: 1px;
-    flex-wrap: wrap;
+    
+    
     
 }
 
-.flex-nav ul .social_icons{
+.flex-nav  .social_icons li{
     flex:1;
-    justify-content: flex-end;
-    justify-content: space-around;
+    display:list-item;
+    align-self: flex-end;
     position: relative;
     padding-left: 40px;
-    color: #AAAAAA
+    color: #AAAAAA;
     
 }
 
-.flex-nav ul .menu-items{
+.flex-nav .menu-items li{
+    flex:2;
     flex-grow:4;
+    display: list-item;
     justify-content: flex-start;
     position: relative;
     padding-right: 0px;
@@ -138,9 +145,10 @@ nav ul {
     max-width: 100%;
     flex-direction: column;
     justify-content: flex-start;
-
     content:"";
-    font-family:Lato;
+    font-family:"Lato";
+    margin-bottom: 50px;
+    background-color: white;
 }
 /* left hand display of the desktop page*/
 .articles {
@@ -266,8 +274,7 @@ h2 {
 h3 {
     font-size: .8em;
     font:large;
-    font-family: Lato;
-    font-style: Hairline;
+    font-family:"Lato";
     margin-top: 42px;
 }
 
@@ -288,7 +295,7 @@ ul {
 
 }
 a {
-    font-family: Oswald;
+    font-family: "Oswald";
     color: #090908; 
     text-decoration: none;
     padding: 4px;
@@ -311,17 +318,18 @@ a:hover{
     max-height:180px;
     max-width:180px;
     border-radius: 50%;
-    border: 7px solid #f1eded;
+    border: 8px solid #FFFFFF;
     position:relative;
-    top: -80px;
+    top: -85px;
 }
 
 .sidebar h2{
     font-family: Oswald;
     font-size: 18px;
+    letter-spacing: 1px;
     text-align: center;
     position: relative;
-    top: -75px;
+    top: -78px;
 }
 
 .author li {
@@ -337,16 +345,15 @@ a:hover{
 .info1 p{
     position:relative;
     font-size: 16px;
-    font-family: Lato;
-    font-weight: light;
+    font-family:"Lato";
     text-align:center;
     padding-left: 13px;;
-
-    letter-spacing: 2px;
-    top: -70px;
+    line-height: 1.6rem;
+    letter-spacing: 0px;
+    top: -74px;
     margin-top: 0px;
-    margin-left: 1.8em;
-    margin-right: 1.8em;
+    margin-left: 1.2em;
+    margin-right: 2em;
    
 }
 
@@ -354,8 +361,8 @@ a:hover{
     display: flex;
     justify-content: center;
     position: relative;
-    top: -63px;
-    left: 30px;
+    top: -89px;
+    left: -25px;
 }
 
 .info1 li{
