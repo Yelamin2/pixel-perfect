@@ -69,8 +69,8 @@ ul .social-icons {
     justify-content: right;
     padding-left: 1px;
     top: 15px;
-    margin-left: -30px;
-    margin-right: 44px;
+    margin-left: -20px;
+    margin-right: 33px;
 }
 
 ul .menu-items {
@@ -143,8 +143,6 @@ ul .menu-items {
     
     
 }
-
-
 .bbox {
 
     flex:2;
@@ -153,23 +151,6 @@ ul .menu-items {
     
     
 
-}
-
-.box{
-    display: flex;
-    max-width: 100%;
-    flex-direction: column;
-    justify-content: flex-start;
-    content:"";
-    font-family:"Lato";
-    margin-bottom: 38px;
-    background: #FFFFFF;
-    
-
-}
-
-.box::before .box::after{
-    background: white;
 }
 
 /* left hand display of the desktop page*/
@@ -181,7 +162,7 @@ ul .menu-items {
 /* space holder to separte left and right information*/
 .space {
 
-    max-width: 2.7%;
+    max-width: 2.5%;
     
 }
 /* right hand display on desktopview turns to lower part on mobile */
@@ -190,6 +171,28 @@ ul .menu-items {
     /* background: #FFFFFF; */
     /* border-bottom: 50px solid rgb(119, 80, 80); */
 }
+
+
+
+
+.box{
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    content:"";
+    font-family:"Lato";
+    margin-bottom: 49px;
+    background: #FFFFFF;
+    
+
+}
+
+.box::before .box::after{
+    background: white;
+}
+
+
 
 .articles img {
     width: 750px;
@@ -200,28 +203,25 @@ ul .menu-items {
     font-family: "Lato";
     font-size: 16px;
     text-align: justify;
-    font-weight: 400;
-
-    margin-top: 0px;
-    margin-left: 2.5em;
+    font-weight: 300;
+    line-height: 26px;
+    margin-top: 3px;
+    margin-left: 2.3em;
     margin-right: 2.5em;
-    max-height: 120px;
-    overflow:hidden;
+    
 }
 
 button{
 
-    background-color: #e7eee7;
+    background-color: #ffffff;
     border: 1px solid #ca5c3c;
     color: #CA5D3D;
     align-self: center;
     width: 172px;
-    height: 40px;
+    height: 39px;
     font-size: 12px;
     font-family:'Lato';
-    margin-top: 23px;
-    position: relative;
-    top: 100%;
+    margin-top: 16px;
     font-weight: 900;
     letter-spacing: 1px;
 
@@ -233,14 +233,19 @@ button{
     flex-direction: row;
     justify-content: space-between;
     font-style: oblique;
-    font-size: 14px;
-    padding-top: 34px;
-    padding-bottom: 25px;
+    font-size: 16px;
+    padding-top: 33px;
+    padding-bottom: 22px;
+}
+.box.art1{
+    height: 922px; 
 }
 
-
 .art2 .info-select{
-    padding-bottom: 74px;;
+    padding-bottom: 26px;;
+}
+.art2 h3{
+    margin-top: 45px;
 }
 
 .art3 img{
@@ -248,7 +253,10 @@ button{
     width: 750px;
     max-height: 500px;  
 }
+.box.art4 {
+    margin-bottom: 30px;
 
+}
 
 
 
@@ -260,7 +268,7 @@ button{
     font-family: "Oswald";
     font-size: 24px;
     text-align: center;
-    margin-top: -3px;
+    margin-top: 1px;
 }
 
 .arts ul {
@@ -268,6 +276,28 @@ button{
 
     position: relative;
 }
+
+.arts li{
+
+   
+    margin-right: 14px;
+    margin-left: 2px;
+    position: relative;
+    top: 3px;
+    right: 16px;
+
+}
+
+.arts .author li{
+    font-style: oblique;
+    font-size: 14px;
+    justify-self: flex-start;
+    margin-left: 46px;
+    position: relative;
+    top: 1px;
+
+}
+
 
 h3 {
     font-size: .8em;
@@ -302,7 +332,7 @@ a:hover{
 .info1 h2 {
     
     position: relative;
-    top: -97px;
+    top: -92px;
 
 }
 .info1 img{
@@ -315,7 +345,7 @@ a:hover{
     max-height:180px;
     max-width:180px;
     border-radius: 50%;
-    border: 8px solid #FFFFFF;
+    border: 7px solid #FFFFFF;
     position:relative;
     top: -85px;
 }
@@ -358,7 +388,7 @@ a:hover{
     padding-left: 13px;
     line-height: 1.6rem;
     letter-spacing: 0px;
-    top: -92px;
+    top: -85px;
     margin-top: 0px;
     margin-left: 1.2em;
     margin-right: 2em;
@@ -366,16 +396,16 @@ a:hover{
 }
 
 /* Second section on right */
-.info2 h2, .info3 h2 {
+.info2 h2 {
 
     position: relative;
-    top:18px;
+    top:15px;
 }
 /* Info 2 box */
 
 .box.info2{
     position: relative;
-    top: 4px;
+    top: -6px;
     height: 984px;
 }
 
@@ -406,9 +436,16 @@ a:hover{
 /* Third section right */
 .box.info3{
     position: relative;
-    top: 4px;
+    top: -14px;
     height: 515px;
 } 
+.info3 h2 {
+
+    position: relative;
+    top:16px;
+    font-size: 18px;
+
+}
 
 .info3 p2{
     position: relative;
@@ -443,7 +480,7 @@ padding-top: 2px;
 /* Info 4 */
 .box.info4{
     position: relative;
-    top: 5px;
+    top: -23px;
     height: 575px;
 } 
 
@@ -455,10 +492,11 @@ padding-top: 2px;
 .info4 img{
     align-self: center;
     max-width: 145px;
-    height: 144px;
-    padding: 5px;
-    top: 7px;
+    height: 145px;
+    padding: 4px;
+    top: -7px;
     position: relative;
+    margin-left: 6px;
 }
 
 .info4 .author{
@@ -484,11 +522,45 @@ padding-top: 2px;
     font-style: oblique;
     font-size: 14px;
     justify-self: flex-start;
-    margin-left: 29px;
+    margin-left: -5px;
+    position: relative;
+    top: 16px;
+
 }
 
+.pages-number {
+    display: flex;
+    position:relative;
+    align-self: center;
+    justify-content:flex-start;
+    width: 80%;
+    margin-left: 10%;
+    
+
+}
+.pages-number ul{
+    padding: 5px;
 
 
+}
+.pages-number li{
+    width: 32px;
+    height: 32px;
+    color: black;
+    background-color: white;
+    margin-right: 8px;
+    text-align: center;
+    line-height: 29px;
+    font-size: 14px;
+    font-family: "Oswald";
+}
+    
+    
+
+ .pages-number li:first-child{
+    color:white;
+    background-color: #dd8323f0 ;
+ }
 
 /* define mobile view */
 @media (max-width: 900px){
@@ -556,6 +628,7 @@ padding-top: 2px;
     left: 20px;
 }
 
+}
 /* end of mobile view*/
 
 
@@ -565,7 +638,7 @@ footer {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-start;
-    padding-top: 140px;
+    padding-top: 68px;
 }
 
 footer h2 {
@@ -573,17 +646,24 @@ footer h2 {
     flex:1;
     font-size: 18px;
     font-weight: 300;
+    position: relative;
+    top: 14px;
 
 }
 
 footer .photos img{
-
-    height: 180px;
-    width:180px;
+    width:179px;
+    height: 179px;
+    
     
 
 }
- 
+ footer p2{
+
+    font-family: "Lato";
+    text-align: center;
+
+ }
 footer ul{
 
     padding-left: 0;
