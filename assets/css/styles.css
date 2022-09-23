@@ -69,8 +69,8 @@ ul .social-icons {
     justify-content: right;
     padding-left: 1px;
     top: 15px;
-    margin-left: -20px;
-    margin-right: 33px;
+    margin-left: -30px;
+    margin-right: 44px;
 }
 
 ul .menu-items {
@@ -234,11 +234,11 @@ button{
     justify-content: space-between;
     font-style: oblique;
     font-size: 16px;
-    padding-top: 33px;
+    padding-top: 0px;
     padding-bottom: 22px;
 }
 .box.art1{
-    height: 922px; 
+    /* height: 922px;  */
 }
 
 .art2 .info-select{
@@ -273,8 +273,8 @@ button{
 
 .arts ul {
     padding: 10px;
-
     position: relative;
+    padding-top: 5px;
 }
 
 .arts li{
@@ -296,6 +296,15 @@ button{
     position: relative;
     top: 1px;
 
+}
+.artbreak {
+    width: 90%;
+    position: relative;
+    display: flex;
+    align-self: center;
+    height: 1px;
+    margin-top: 37px;
+    border-top: 1px solid black;
 }
 
 
@@ -413,6 +422,7 @@ a:hover{
     align-self: center;
     width: 300px;
     height: 200px;
+    object-fit: fill;
     position: relative;
     top: 26px;
     margin-bottom: 5px;
@@ -431,6 +441,15 @@ a:hover{
     font-family: "Oswald";
     margin-left: 29px;
 
+}
+.break {
+    width: 82%;
+    position: relative;
+    display: flex;
+    align-self: center;
+    height: 1px;
+    margin-top:10px;
+    border-top: 1px solid black;
 }
 
 /* Third section right */
@@ -464,6 +483,7 @@ a:hover{
     height: 75px;
     margin-left: 28px;
     top: 27px;
+    margin-bottom: 10px;
 }
 .info3 li{
     position: relative;
@@ -534,7 +554,7 @@ padding-top: 2px;
     align-self: center;
     justify-content:flex-start;
     width: 80%;
-    margin-left: 10%;
+    margin-left: -1%;
     
 
 }
@@ -561,75 +581,6 @@ padding-top: 2px;
     color:white;
     background-color: #dd8323f0 ;
  }
-
-/* define mobile view */
-@media (max-width: 900px){
-
-    .space{
-        width:0;
-    }
-
-    .holder {
-        padding-left: 0;
-        justify-content:center;
-    }
-
-    .container{
-        max-width: 95.1%;
-        flex-direction: column;
-        justify-content: center;
-        margin-top: 0;
-    }
-    
-    .articles {
-        max-width: 100%;
-        
-    }
-
-    .info1 img {
-        
-        max-width:472px;
-        max-height: 244px;
-    }
-    .circle img{
-   
-        height: 38%;
-        width:38%;
-        top: -130px; 
-    }
-   
-    
-    .sidebar {
-        max-width: 100%;
-
-    }
-    .info3 {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-   
-    
-    footer  li:nth-last-child(2n){
-
-        max-width: 0px;
-        max-height: 0px;
-
-    }
-    
-.flex-nav {
-    
-    
-    max-width: 100%;
-    list-style: none;
-    margin: -3px;
-    padding: 0px;
-    position: relative;
-    left: 20px;
-}
-
-}
-/* end of mobile view*/
 
 
 footer {
@@ -668,3 +619,110 @@ footer ul{
 
     padding-left: 0;
 }
+
+
+/* define mobile view */
+@media (max-width: 700px){
+
+    .space{
+        width:0;
+    }
+
+    .holder {
+        padding-left: 0;
+        justify-content:center;
+    }
+
+    .container{
+        max-width: 95.1%;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 32px;
+    }
+    
+    .articles {
+        max-width: 100%;
+    }
+
+    .articles p{
+        line-height: 25px;   
+    }
+
+    .arts img{
+        width: 475px;
+        height: 300px;
+    }
+
+    .art3 img{
+        width: 475px;
+        height: 100%;
+    }
+
+    .info1 img {
+        
+        max-width:472px;
+        max-height: 244px;
+    }
+
+    .circle img{
+   
+        height: 180px;
+        width: 180px;
+        
+        top: -102px; 
+    }
+   
+    
+    .sidebar {
+        max-width: 100%;
+
+    }
+    .info2 img{
+        align-self: center;
+        width: 400px;
+        height: 280px; 
+        position: relative;
+         top: 26px; */
+        /* margin-bottom: 5px; */
+    }
+    
+    .info3 {
+        /* flex-direction: row; */
+        flex-wrap: wrap;
+    }
+    .box.info3{
+        top: 14px;
+    }
+
+    .info3 img{
+
+        align-self: auto;
+        position: relative;
+        /* width: 105px;
+        height: 75px;
+        margin-left: 28px; */
+        top: 27px;
+    }
+
+   
+    
+    footer  li:nth-last-child(2n){
+
+        max-width: 0px;
+        max-height: 0px;
+
+    }
+    
+.flex-nav {
+    
+    
+    max-width: 100%;
+    list-style: none;
+    margin: -3px;
+    padding: 0px;
+    position: relative;
+    left: 20px;
+}
+
+}
+/* end of mobile view*/
