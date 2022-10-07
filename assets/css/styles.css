@@ -415,7 +415,7 @@ a:hover{
 .box.info2{
     position: relative;
     top: -6px;
-    height: 984px;
+    /* height: 984px; */
 }
 
 .info2 img{
@@ -456,7 +456,7 @@ a:hover{
 .box.info3{
     position: relative;
     top: -14px;
-    height: 515px;
+    /* height: 515px; */
 } 
 .info3 h2 {
 
@@ -501,7 +501,7 @@ padding-top: 2px;
 .box.info4{
     position: relative;
     top: -23px;
-    height: 575px;
+    /* height: 575px; */
 } 
 
 .info4 h2 {
